@@ -135,6 +135,14 @@ class AnasayfaFragment : Fragment() {
     }
 
     private fun hesapla(): String {
+        if (ifade.isEmpty()) return "0"
+
+        // Eğer ifade sadece operatörle bitiyorsa son karakteri kaldır
+        val sonKarakter = ifade.last()
+        if (!sonKarakter.isDigit()) {
+            ifade = ifade.dropLast(1)
+        }
+        
         val liste = ifadeParcala().toMutableList()
         // 1. x ve ÷ işlemleri
         var i = 0
