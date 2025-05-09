@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="islemBg">#B0BFC6</color>
+    <color name="esittirBg">#308A00</color>
+    <color name="esittirYazi">#FFFFFF</color>
+    <color name="sifirlamaYazi">#BF0B0B</color>
+    <color name="islemlerYazi">#308A00</color>
+    <color name="sayiYazi">#FF000000</color>
+    <color name="sayiBg">#FFFFFFFF</color>
+    <color name="uygulamaBg">#EBEFF2</color>
+
+</resources>
